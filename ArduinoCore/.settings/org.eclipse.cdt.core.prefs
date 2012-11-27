@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/de.innot.avreclipse.configuration.app.release.1602708466.774561309.1812997505/AVRDUDEOPTIONS/delimiter=\:
+environment/project/de.innot.avreclipse.configuration.app.release.1602708466.774561309.1812997505/AVRDUDEOPTIONS/operation=replace
+environment/project/de.innot.avreclipse.configuration.app.release.1602708466.774561309.1812997505/AVRDUDEOPTIONS/value=-pm2560 -cstk500v2 -P/dev/tty.usbmodem411 -b115200
+environment/project/de.innot.avreclipse.configuration.app.release.1602708466.774561309.1812997505/append=true
+environment/project/de.innot.avreclipse.configuration.app.release.1602708466.774561309.1812997505/appendContributed=true

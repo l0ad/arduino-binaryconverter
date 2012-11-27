@@ -1,0 +1,7 @@
+/Mega2560/scrCore/*
+/Mega2560/makefile
+/Mega2560/*.mk
+/srcCore/*.o
+/Nano328P/scrCore/*
+/Nano328P/makefile
+/Nano328P/*.mk
