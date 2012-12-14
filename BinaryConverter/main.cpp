@@ -65,6 +65,7 @@ String valueHex;
  */
 long debounceTime;
 
+
 /**
  * Application's main (what else to say?)
  * @return (never)
@@ -97,6 +98,8 @@ void refreshDisplay() {
 	valueDec = String(value);
 	valueHex = String(value, HEX);
 	valueHex.toUpperCase();
+	valueHex.replace("B", "b");
+	valueHex.replace("D", "d");
 
 	// clear 8-digits display
 	module.clearDisplay();
