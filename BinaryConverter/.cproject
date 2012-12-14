@@ -45,6 +45,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/srcCore}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/srcVariants/standard}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/TM1638}&quot;"/>
 								</option>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.734436418" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
@@ -55,6 +56,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/srcCore}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/srcVariants/standard}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/TM1638}&quot;"/>
 								</option>
 								<option id="de.innot.avreclipse.cppcompiler.option.optimize.other.2086348615" name="Other Optimization Flags" superClass="de.innot.avreclipse.cppcompiler.option.optimize.other" value="-ffunction-sections -fdata-sections" valueType="string"/>
 								<option id="de.innot.avreclipse.cppcompiler.option.allwarn.1729631665" name="All Warnings (-Wall)" superClass="de.innot.avreclipse.cppcompiler.option.allwarn" value="false" valueType="boolean"/>
@@ -74,6 +76,9 @@
 								</option>
 								<option id="de.innot.avreclipse.cpplinker.option.libpath.649478372" name="Libraries Path (-L)" superClass="de.innot.avreclipse.cpplinker.option.libpath" valueType="stringList">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/Nano328P}&quot;"/>
+								</option>
+								<option id="de.innot.avreclipse.cpplinker.option.otherobjs.2125399845" name="Other Objects (*.o)" superClass="de.innot.avreclipse.cpplinker.option.otherobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Nano328P/TM1638/TM1638.o}&quot;"/>
 								</option>
 								<inputType id="de.innot.avreclipse.tool.cpplinker.input.1424867908" name="OBJ Files" superClass="de.innot.avreclipse.tool.cpplinker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -138,6 +143,7 @@
 									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}}"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/srcCore}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/srcVariants/mega}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/TM1638}&quot;"/>
 								</option>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.1649105757" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
@@ -148,6 +154,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/srcCore}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/srcVariants/mega}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/TM1638}&quot;"/>
 								</option>
 								<option id="de.innot.avreclipse.cppcompiler.option.optimize.other.32008829" name="Other Optimization Flags" superClass="de.innot.avreclipse.cppcompiler.option.optimize.other" value="-ffunction-sections -fdata-sections" valueType="string"/>
 								<option id="de.innot.avreclipse.cppcompiler.option.allwarn.725107270" name="All Warnings (-Wall)" superClass="de.innot.avreclipse.cppcompiler.option.allwarn" value="false" valueType="boolean"/>
@@ -168,6 +175,9 @@
 								<option id="de.innot.avreclipse.cpplinker.option.libpath.1925474821" name="Libraries Path (-L)" superClass="de.innot.avreclipse.cpplinker.option.libpath" valueType="stringList">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/Mega2560}&quot;"/>
 								</option>
+								<option id="de.innot.avreclipse.cpplinker.option.otherobjs.431127306" superClass="de.innot.avreclipse.cpplinker.option.otherobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mega2560/TM1638/TM1638.o}&quot;"/>
+								</option>
 								<inputType id="de.innot.avreclipse.tool.cpplinker.input.158647553" name="OBJ Files" superClass="de.innot.avreclipse.tool.cpplinker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -186,14 +196,14 @@
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
-		<storageModule moduleId="refreshScope" versionNumber="2">
+	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Nano328P">
-			<resource resourceType="PROJECT" workspacePath="/BinaryConverter"/>
 			<resource resourceType="PROJECT" workspacePath="/ArduinoCore"/>
+			<resource resourceType="PROJECT" workspacePath="/BinaryConverter"/>
 		</configuration>
 		<configuration configurationName="Mega2560">
-			<resource resourceType="PROJECT" workspacePath="/BinaryConverter"/>
 			<resource resourceType="PROJECT" workspacePath="/ArduinoCore"/>
+			<resource resourceType="PROJECT" workspacePath="/BinaryConverter"/>
 		</configuration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
@@ -238,5 +248,8 @@
 		<scannerConfigBuildInfo instanceId="de.innot.avreclipse.configuration.app.release.1602708466.804897449;de.innot.avreclipse.configuration.app.release.1602708466.804897449.;de.innot.avreclipse.tool.cppcompiler.app.release.601018;de.innot.avreclipse.cppcompiler.input.1990773542">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="de.innot.avreclipse.core.AVRGCCManagedMakePerProjectProfileCPP"/>
 		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="BinaryConverter.null.1463536603" name="BinaryConverter"/>
 	</storageModule>
 </cproject>
