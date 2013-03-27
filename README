@@ -1,13 +1,15 @@
-This is a Eclipse/AVR project used to build a simple BIN/HEX/DEC converter using an Arduino Nano and a TM1638 module.
+Simple BIN/HEX/DEC converter using an Arduino Nano and a TM1638 module.
 
-The project has been built using 
-- Eclipse Juno
-- ArduinoIDE v1.0.2 toolchain and source files
-- AVR eclipse plugin v2.4.0
+The project has been built and tested using 
 
-This project is originally a fork of https://github.com/sebastienjean/arduino-eclipse-simpleproject, so check its wiki for installation/building steps
+- ArduinoIDE v1.0.4 toolchain and source files
 
-For any other detail bout the converter, see wiki pages.
+- Eclipse Juno + AVR eclipse plugin v2.4.0
+
+This project is originally a fork of https://github.com/sebastienjean/arduino-eclipse-simpleproject, so check its wiki 
+for Eclipse installation/building steps
+
+For any other detail about the converter, see pages (under construction).
 
 
 Feel free to contact me for any question.
