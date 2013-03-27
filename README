@@ -6,8 +6,7 @@ The project has been built and tested using
 
 - Eclipse Juno + AVR eclipse plugin v2.4.0
 
-This project is originally a fork of https://github.com/sebastienjean/arduino-eclipse-simpleproject, so check its wiki 
-for Eclipse installation/building steps
+This project is originally a fork of https://github.com/sebastienjean/arduino-eclipse-simpleproject, so check its wiki for Eclipse installation/building steps
 
 For any other detail about the converter, see pages (under construction).
 
